@@ -19,7 +19,7 @@ function Toggle() {
 
   //Here, we're doing some conditional rendering to dynamically determine the button's text based on our state variable, {isOn ? "ON" : "OFF"}
   //add an event listener to handleclick
-  //check if the state is off/false,background is white. If it is of/true, background is red
+  //check if the state is off/false,background is white. If it is of/true, background is red (please note that this is determined by state we first wrote)
   
 return (
   <button style={{ background: color }} onClick={handleClick}>
